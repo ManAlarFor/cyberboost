@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cyberstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./img/index/favicon.png" type="image/x-icon">
+    <title>Cyberboost</title>
+</head>
+<body>
+
+    <nav class="navbar titulos text-neon navbar-expand-lg bg-oscuro sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link m-2 active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-2" href="#">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-2" href="#">Origen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-2" href="#">Characteristics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-2" href="#">Media Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-2" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown d-block end-0">
+                        <a class="nav-link m-2 dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Language
+                        </a>
+                        <ul class="dropdown-menu bg-oscuro">
+                        <li><a class="dropdown-item text-neon" href="#">English</a></li>
+                        <li><a class="dropdown-item text-neon" href="#">Spanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+
+    
+        <div class="carousel-inner">
+
+            <h1 class="text-neon titulos position-absolute top-30 start-50 translate-middle z-1">CYBERPUNK</h1>
+
+            <button id="buttonHero" class="titulos position-absolute top-70 text-azulin start-50 translate-middle z-1">Future is yours</button>
+
+            <div class="carousel-item active">
+                <img src="./img/index/carroussel1.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img/index/carroussel2.jpg" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img/index/carroussel3.jpg" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="wrapper bg-claro w-75 m-auto">
+
+        <section id="explicacion">
+
+            <div class="grid-2_texto-foto">
+                <div class="col-2"> 
+                    <h2>What cyberpunk is?</h2>
+                    <p>Cyberpunk is a genre that explores onto what posibilities a dystopical and technological world could await.
+                    From a robot revolution, collosal cities or even a world where its usual to see humans with loads of implants an bionic parts.
+                    It is a genre filled up with amazing <del>and horrifying</del> stories about what the world could look like in the future.</p>
+
+                    </div>
+
+                    <div class="col-2">
+                        <img src="./img/cyberpunkCity.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="origen">
+
+                <div class="grid-2_foto-texto">
+                    <div class="col-2"> 
+                        <img src="./img/fotos2077/cyberpunk2020.jpg" alt="">
+                    </div>
+
+                    <div class="col-2">
+                        <h2>Cyberpunk Origins</h2>
+                        <p>The Cyberpunk origin is took place in the 60's and 70's as a new wave Sci-fi</p>
+                        <p>Its three main founders, William Gibson, Bruce Sterling and John Shirley, whose stories created the base for future books, movies, videogames and even board games, created all this genre as a way to critisize how society was evolving.</p>
+                        <a href="./subpaginas/origin.html"><button onclick="sound('bip')">Read More</button></a>
+                    </div>
+
+                </div>
+                
+            </section>
+
+            <section id="carac">
+                
+            <div class="grid-2_texto-foto">
+                <div class="col-2"> 
+                    <h2>Characteristics</h2>
+                    <p>Based on the cyberware and robotic implants, as well as a social collapse which could be seen in all contraband that sorrounds all society, the Cyberpunk stories have a common point in all of them: low life and high tech.</p>
+                    <p>On the one hand, you would have a bad life, overworking and having to deal with mafias and social tribes. However, on the other hand, you will also be able to have easy access to all tech you could imagine.</p>
+                <a href="./subpaginas/carac.html"><button onclick="sound('bip')">Read More</button></a>
+                
+                </div>
+
+                <div class="col-2">
+                    <img src="./img/caracteristicas.jpg" alt="">
+                </div>
+
+            </div>
+
+            </section>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
