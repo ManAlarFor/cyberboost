@@ -49,7 +49,7 @@ h1{
 
 
 
-/************button**************/
+/************button Hero**************/
 
 #buttonHero,#buttonHero::after{
     width:300px;
@@ -151,6 +151,108 @@ h1{
     }
 }
 
+
+/*************************resto de botones*******************************/
+
+.botoncillos,.botoncillos::after{
+    width:200px;
+    height:43px;
+    font-size:1.2em!important;
+    font-weight:500;
+    background:linear-gradient(45deg,transparent 5%,#32093d 5%);
+    border:0;
+    color:#fff;
+    letter-spacing:3px;
+    box-shadow:6px 0 0 #F942DD;
+    position:relative;
+
+}
+
+.botoncillos::after{
+    --slice-0:inset(50% 50% 50% 50%);
+    --slice-1:inset(80% -6px 0 0);
+    --slice-2:inset(50% -6px 30% 0);
+    --slice-3:inset(10% -6px 85% 0);
+    --slice-4:inset(40% -6px 43% 0);
+    --slice-5:inset(80% -6px 5% 0);
+    content:'wanna go deeper?';
+    display:block;
+    position:absolute;
+    left:0;
+    top:0;
+    font-size:0.7em!important;
+    background:linear-gradient(45deg,transparent 3%,#F942DD 3%,#A8C4F5 5%, #A8C4F5 3%);
+    text-shadow: -3px -3px 0 #F8F005 , 3px 3px 0 #F942DD;
+    clip-path:var(--slice-0);
+}
+.botoncillos:hover::after{
+    animation: glitch 1s;
+    animation-timing-function:steps(2,end);
+}
+
+.botoncillos:hover{
+    color:#1f0c24!important;
+    box-shadow:6px 0 0 #A8C4F5;
+    background:linear-gradient(45deg,transparent 5%,#F942DD 5%);
+}
+
+@keyframes glitch {
+    0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+    }
+    
+    10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+    }
+    
+    20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+    }
+    
+    30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+    }
+    
+    40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+    }
+    
+    50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+    }
+    
+    60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+    }
+    
+    70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+    }
+    
+    80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+    }
+    
+    90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+    }
+    
+    100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+    }
+}
+
 /***************************responsibity*********************************/
 
 @media only screen and (width<1400px) {
@@ -166,12 +268,16 @@ h1{
     h1{
         font-size: 8em!important;
     }
+    #wrapper{
+        width: 100%!important;
+    }
 }
 
 @media only screen and (width<900px) {
     h1{
         font-size: 7em!important;
     }
+
 }
 
 @media only screen and (width<800px) {
@@ -193,6 +299,10 @@ h1{
 
 .titulos{
     font-family: cybertitulo !important;
+}
+
+.texto{
+    font-family: cybertext !important;
 }
 
 .w-10{

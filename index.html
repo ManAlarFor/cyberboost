@@ -10,6 +10,8 @@
 </head>
 <body>
 
+    <audio src="./sound/beeping-80664.mp3" id="bip"></audio>
+
     <nav class="navbar titulos text-neon navbar-expand-lg bg-oscuro sticky-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +24,7 @@
                         <a class="nav-link m-2 active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link m-2" href="#">Introduction</a>
+                        <a class="nav-link m-2" href="#explicacion">Introduction</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link m-2" href="#">Origen</a>
@@ -74,67 +76,70 @@
         </div>
     </div>
 
-    <div class="wrapper bg-claro w-75 m-auto">
+    <div id="wrapper" class="w-75 m-auto text-azulin texto">
 
-        <section id="explicacion">
+        <section class="container p-5 bg-claro" id="explicacion">
 
-            <div class="grid-2_texto-foto">
-                <div class="col-2"> 
-                    <h2>What cyberpunk is?</h2>
+            <div class="row">
+                <div class="col-8"> 
+                    <h2 class="titulos text-neon">What cyberpunk is?</h2>
                     <p>Cyberpunk is a genre that explores onto what posibilities a dystopical and technological world could await.
                     From a robot revolution, collosal cities or even a world where its usual to see humans with loads of implants an bionic parts.
                     It is a genre filled up with amazing <del>and horrifying</del> stories about what the world could look like in the future.</p>
 
                     </div>
 
-                    <div class="col-2">
-                        <img src="./img/cyberpunkCity.jpg" alt="">
+                    <div class="col-4">
+                        <img class="w-100 rounded-top-4" src="./img/index/cyberpunkCity.jpg" alt="">
                     </div>
 
                 </div>
 
             </section>
 
-            <section id="origen">
+            <section class="container p-5 bg-oscuro" id="origen">
 
-                <div class="grid-2_foto-texto">
+                <div class="row">
                     <div class="col-2"> 
-                        <img src="./img/fotos2077/cyberpunk2020.jpg" alt="">
+                        <img class="w-100 rounded-top-4" src="./img/index/cyberpunk2020.jpg" alt="">
                     </div>
 
-                    <div class="col-2">
-                        <h2>Cyberpunk Origins</h2>
+                    <div class="col-10">
+                        <h2 class="titulos text-neon">Cyberpunk Origins</h2>
                         <p>The Cyberpunk origin is took place in the 60's and 70's as a new wave Sci-fi</p>
                         <p>Its three main founders, William Gibson, Bruce Sterling and John Shirley, whose stories created the base for future books, movies, videogames and even board games, created all this genre as a way to critisize how society was evolving.</p>
-                        <a href="./subpaginas/origin.html"><button onclick="sound('bip')">Read More</button></a>
+                        <a href="./subpaginas/origin.html"><button class="botoncillos" onclick="sound('bip')">Read More</button></a>
                     </div>
 
                 </div>
                 
             </section>
 
-            <section id="carac">
+            <section class="container p-5 bg-claro" id="carac">
                 
-            <div class="grid-2_texto-foto">
-                <div class="col-2"> 
-                    <h2>Characteristics</h2>
+            <div class="row">
+                <div class="col-7"> 
+                    <h2 class="titulos text-neon">Characteristics</h2>
                     <p>Based on the cyberware and robotic implants, as well as a social collapse which could be seen in all contraband that sorrounds all society, the Cyberpunk stories have a common point in all of them: low life and high tech.</p>
                     <p>On the one hand, you would have a bad life, overworking and having to deal with mafias and social tribes. However, on the other hand, you will also be able to have easy access to all tech you could imagine.</p>
-                <a href="./subpaginas/carac.html"><button onclick="sound('bip')">Read More</button></a>
+                <a href="./subpaginas/carac.html"><button class="botoncillos" onclick="sound('bip')">Read More</button></a>
                 
                 </div>
 
-                <div class="col-2">
-                    <img src="./img/caracteristicas.jpg" alt="">
+                <div class="col-5">
+                    <img class="w-100 rounded-top-4" src="./img/index/caracteristicas.jpg" alt="">
                 </div>
 
             </div>
 
             </section>
+        </section>
+        
 
     </div>
 
 
+    <script src="./js/boostjs.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
