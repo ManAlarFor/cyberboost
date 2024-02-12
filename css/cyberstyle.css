@@ -24,8 +24,11 @@
 /**************************nav******************************/
 
 .nav-item:hover{
-    color: #1f0c24;
     background-color:#A8C4F5 ;
+}
+
+.nav-link:hover{
+    color: #1f0c24;
 }
 
 .navbar{
@@ -326,6 +329,10 @@ h1{
     background-color:#17091B!important;
 }
 
+.bg-nav{
+    background-color:#2c1133!important;
+}
+
 .bg-claro{
     background-color:#1f0c24!important;
 }
@@ -337,5 +344,3 @@ h1{
 .top-70{
     top:70%!important
 }
-
-
