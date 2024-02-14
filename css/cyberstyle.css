@@ -49,7 +49,55 @@ h1{
     font-size: 10em !important;
 }
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#carousel .carousel-item.boat{
+    background-image:url(../img/index/carroussel1.jpg);
+    background-position: 35% ;
+}
+#carousel .carousel-item.sea{
+    background-image:url(../img/index/carroussel2.jpg);
+    background-position: 20%;
+}
+#carousel .carousel-item.river{
+    background-image:url(../img/index/carroussel3.jpg);
+    background-position: 60%;
+}
+#carousel .carousel-item{
+    height:100vh;
+    width:100%;
+    min-height:350px;
+    background:no-repeat center center scroll;
+    background-size:cover;
+}
+#carousel .carousel-inner .carousel-item{
+    transition:-webkit-transform 2s ease;
+    transition:transform 2s ease;
+    transition:transform 2s ease -webkit-transform 2s ease;
+}
+#carousel .carousel-item .caption{
+    background:rgba(0,0,0,0.5);
+    padding:40px;
+    color:white;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+#carousel .caption h2{
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+#carousel .caption p{
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+}
 
+#carousel .caption a{
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+}
 
 
 /************button Hero**************/
