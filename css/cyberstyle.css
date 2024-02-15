@@ -1,7 +1,7 @@
 /************************************************************/
 /*                                                          */
 /*               Cyberboost's Index Stylesheet               */
-/*                By: Manuel Alarcón Fortes                 */
+/*                By: Manuel Alarcon Fortes                 */
 /*                      2.0 Version                         */
 /*                                                          */
 /************************************************************/
@@ -276,6 +276,10 @@ h1{
     }
     .marca{
         font-size: 1.5em!important;
+    }
+
+    .row{
+        margin-right: 0px !important;
     }
 
 }
