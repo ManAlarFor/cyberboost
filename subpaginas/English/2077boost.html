@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/index/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/2077style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cyberpunk 2077</title>
+</head>
+<body>
+
+    <audio src="../../sound/beeping-80664.mp3" id="bip"></audio>
+
+    <nav class="navbar titulos navbar-expand-lg bg-nav sticky-top">
+        <div class="container-fluid">
+            <button onclick="sound('bip')" class="navbar-toggler bg-neon rounded-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-azulin titulos">Menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="text-neon nav-link m-2" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-neon nav-link m-2" href="#Timeline">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-neon nav-link m-2" href="#productos">Products</a>
+                    </li>
+                    <li class="nav-item dropdown d-block end-0">
+                        <a class="text-neon nav-link m-2 dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Language
+                        </a>
+                        <ul class="dropdown-menu bg-oscuro">
+                        <li><a class="dropdown-item text-neon" href="#">English</a></li>
+                        <li><a class="dropdown-item text-neon" href="../Español/2077boostEsp.html">Spanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---------------------------------------------HERO SECTION------------------------------------------------------------>
+
+    <div class="container-fluid p-0">
+        <div id="carousel" class="carousel slide hero-slides" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel" data-slide-to="0"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            
+            <h1 class="text-neon titulos position-absolute top-30 start-50 translate-middle z-1">Cyberpunk 2077</h1>
+
+            <a href="#escritor"><button onclick="sound('bip')" id="buttonHero" class="titulos position-absolute top-70 text-azulin start-50 translate-middle z-1">Wake up samurai</button></a>
+            <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active boat">
+            </div>
+            <div class="carousel-item sea">
+            </div>
+            <div class="carousel-item river">
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only text-neon">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only  text-neon">Next</span>
+            </a>
+        </div>
+    </div>
+    
+    </div>
+
+    <div id="wrapper" class="w-75 m-auto texto text-azulin">
+
+        <section class="container p-5 bg-claro" id="Timeline">
+
+            <div class="row pt-5 pb-5">
+                    <div class="p-2 col-12 col-md-6"> 
+                        <h2 class="titulos text-neon">Timeline</h2>
+                        <p>The point when this timeline (shown in, lots of different media) splits from ours even more sharply is the moment when the cold war end, due to the fact that the USSR doesn't disapear. Other things happen, such as the creation of the early start of the start of the space race and conquering or the creation of different nations, as Benelux(Belgium, Netherland and Luxembourg), NUSA(New United Stated) and citys, like Barcelona Nova or Night City, being the center of the world. One of the most important events was the fall of the old internet, as it had such a huge quantity of malware and privacy control that one only man created a "wall" preventing people from entering it.</p>
+                        <p>The world domination is shared between some macro-corporations, such as Arasaka(japanese), Militech(American) having both corporations a power struggle and even wars.</p>
+
+                        <a target="_blank" href="https://williamgibsonbooks.com" onclick="sound('bip')" class="pe-5"><button class="botoncillos">Official Site</button></a>
+
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <img class="w-100 rounded-top-4" src="../../img/2077/timeline.jpg" alt="Timeline">
+                    </div>
+
+            </div>
+
+        </section>
+
+        <section class="container p-5 bg-oscuro" id="productos">
+
+            
+        <div class="row pt-5 pb-5">  
+            <h2 class="titulos text-neon">Different Products</h2>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-claro text-azulin">
+                    <img src="../../img/2077/CyberpunkBoard.jpg" class="card-img-top mb-2" alt="Neuromancer Cover">
+                    <div class="card-body">
+                        <h5 class="card-title titulos text-neon">Board Games</h5>
+                        <p class="card-text">This Roleplaying board game first published in 1988 has had by four different names: Cyberpunk 2013, Cyberpunk 2020, Cyberpunk V3.0 and, in 2020(to avoid misunderstandings) the game was named Cyberpunk Red.</p>
+                        <a target="_blank" href="https://rtalsoriangames.com/cyberpunk/" onclick="sound('bip')" class="pe-5"><button class="botoncillos">Official Site</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-claro text-azulin">
+                    <img src="../../img/2077/cyberpunk2077.jpg" class="card-img-top mb-2" alt="Neuromancer Cover">
+                    <div class="card-body">
+                        <h5 class="card-title titulos text-neon">Videogames</h5>
+                        <p class="card-text">Cyberpunk 2077 the main source of fame of this franchise, publised in 2020, is an RPG that puts you in the shoes of a person who lifes in Night City, and you choose how you want your story to start: being a person with an stressful life working for the corps, being the ex-boss of a corporation that entered a crisis or being a nomad that lived in the desert around this city. This is the most recognizable song of this game:</p>
+                        <audio controls id="playButton">
+                            <source src="../../sound/cybermeme.mp3" type="audio/mp3">
+                        </audio>
+                        <a target="_blank" href="https://www.cyberpunk.net/es/en/cyberpunk-2077" onclick="sound('bip')" class="pe-5"><button class="botoncillos">Official Site</button></a>
+                    </div>
+                </div>
+            </div>  
+
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-claro text-azulin">
+                    <img src="../../img/2077/cyberpunkBook.jpg" class="card-img-top mb-2" alt="Count Cero Cover">
+                    <div class="card-body">
+                    <h5 class="card-title titulos text-neon">Books</h5>
+                    <p class="card-text">After the videogame was published, some books telling stories settled in the same world, telling how things were before and after the events in the game were also published.</p>
+                    <a target="_blank" href="https://www.goodreads.com/series/341075-cyberpunk-2077" onclick="sound('bip')" class="pe-5"><button class="botoncillos">Official Site</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-claro text-azulin">
+                    <img src="../../img/2077/Edgerunners.jpg" class="card-img-top mb-2" alt="Mona Lisa Overdrive Cover">
+                    <div class="card-body">
+                        <h5 class="card-title titulos text-neon">Anime</h5>
+                        <p class="card-text">This show tells the story of David Martinez, a guy from the Santo Domingo district in Night City, which is a poor area and his live changes after some events happen, like meeting Lucy Kushinada. This show has an excellent use of the color theory, using the neon lights as a way to show emotions. Its opening theme is this:</p>
+
+                        <audio controls id="playButton">
+                            <source src="../../sound/introedgerunners.mp3" type="audio/mp3">
+                        </audio>
+
+                    <a target="_blank" href="https://www.cyberpunk.net/en/edgerunners" onclick="sound('bip')" class="pe-5"><button class="botoncillos">Official Site</button></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </section>
+
+        <footer class="bg-claro">
+            <div class="marca display-2 text-center text-neon titulos p-3">
+                Cyberpunk
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 pb-5 ps-5">
+                    <p>Check out my Github Profile:</p>
+                    <a target="_blank" href="https://github.com/ManAlarFor" class="display-4" target="_blank"><i class="enlaces fa fa-github text-neon" aria-hidden="true"></i></a>
+
+                </div>
+
+                <div class="col-12 col-lg-6 text-end pe-5">
+                    <div id="rights">
+                        <p class="enlaces"><a class="text-neon" href="#Timeline">Timeline</a></p>
+                        <p class="enlaces"><a class="text-neon" href="#productos">Products</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="./js/boostjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/animateCSS/1.2.2/jquery.animatecss.min.js"></script>
+</body>
+</html>

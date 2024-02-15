@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/index/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/bladestyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bladeboost</title>
+</head>
+<body>
+
+    <audio src="../../sound/beeping-80664.mp3" id="bip"></audio>
+
+    <nav class="navbar titulos navbar-expand-lg bg-nav sticky-top">
+        <div class="container-fluid">
+            <button onclick="sound('bip')" class="navbar-toggler bg-neon rounded-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-azulin titulos">Menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="text-neon nav-link m-2" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-neon nav-link m-2" href="#original">Blade Runner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-neon nav-link m-2" href="#yo">Blade Runner 2049</a>
+                    </li>
+                    <li class="nav-item dropdown d-block end-0">
+                        <a class="text-neon nav-link m-2 dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Language
+                        </a>
+                        <ul class="dropdown-menu bg-oscuro">
+                        <li><a class="dropdown-item text-neon" href="#">English</a></li>
+                        <li><a class="dropdown-item text-neon" href="../Español/bladeboostEsp.html">Spanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---------------------------------------------HERO SECTION------------------------------------------------------------>
+
+    <div class="container-fluid p-0">
+        <div id="carousel" class="carousel slide hero-slides" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel" data-slide-to="0"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            
+            <h1 class="text-neon titulos position-absolute top-30 start-50 translate-middle z-1">Blade Runner</h1>
+
+            <a href="#original"><button onclick="sound('bip')" id="buttonHero" class="titulos position-absolute top-70 text-azulin start-50 translate-middle z-1">Scape from society</button></a>
+            <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active boat">
+            </div>
+            <div class="carousel-item sea">
+            </div>
+            <div class="carousel-item river">
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only text-neon">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only  text-neon">Next</span>
+            </a>
+        </div>
+    </div>
+    
+    </div>
+
+    <div id="wrapper" class="w-75 m-auto texto text-azulin">
+
+        <section class="container p-5 bg-claro" id="original">
+
+            <div class="row pt-5 pb-5">
+
+                    <div class="p-2 col-12 col-md-8"> 
+                        <h2 class="titulos text-neon">Blade Runner (1982)</h2>
+                        <p>In a dystopic 2019 Los Angeles' version, humans have developed a way to create artificial versions of themselves by bio-engineering, called replicants, who had to deal with harmful and dangerous jobs such as the space colonies. This history, protagonized by Rick Deckard(Harrison Ford), follows the path of a group of replicants that could scape from this tasks. In first instance, this movie had both good and bad reviews, but time made this movie a classic that predicted lots of the problems the humanity would have to face.</p>
+
+                        <a target="_blank" href="https://www.warnerbros.com/movies/blade-runner" onclick="sound('bip')" class="pe-5"><button class="botoncillos">Official Site</button></a>
+
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <img class="w-100 rounded-top-4" src="../../img/blade/original.jpg" alt="Original Blade Runner Movie Poster">
+                    </div>
+
+            </div>
+
+        </section>
+
+        <section class="container p-5 bg-oscuro" id="yo">
+
+            <div class="row pt-5 pb-5">
+
+                <div class="col-12 col-md-4">
+                    <img class="w-100 rounded-top-4" src="../../img/blade/litteraly_me.jpeg" alt="Ryan Reynolds In Blade Runner 2049">
+                </div>
+
+                <div class="p-2 col-12 col-md-8"> 
+                    <h2 class="titulos text-neon">Blade Runner 2049 (2017)</h2>
+                    <p>Settled 30 years after the original movie, this film tells the story of K(Ryan Gosling), who is an android created by bio-engineering to obbey, works for the L.A. Police retiring clandestine old replicants versions. He shares his life with his hollografic partner Joi(Ana de Armas). He will finally get involved in a problematic plot, getting them to know Rick Deckard(the protagonist of the first movie) and having to deal with an excentric multimillionaire.</p>
+
+                    <a target="_blank" href="https://www.bladerunner2049movie.com" onclick="sound('bip')" class="pe-5"><button class="botoncillos">Official Site</button></a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="bg-claro">
+            <div class="marca display-2 text-center text-neon titulos p-3">
+                Cyberpunk
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 pb-5 ps-5">
+                    <p>Check out my Github Profile:</p>
+                    <a target="_blank" href="https://github.com/ManAlarFor" class="display-4" target="_blank"><i class="enlaces fa fa-github text-neon" aria-hidden="true"></i></a>
+
+                </div>
+
+                <div class="col-12 col-lg-6 text-end pe-5">
+                    <div id="rights">
+                        <p class="enlaces"><a class="text-neon" href="#original">Blade Runner</a></p>
+                        <p class="enlaces"><a class="text-neon" href="#yo">Blade Runner 2049</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="./js/boostjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/animateCSS/1.2.2/jquery.animatecss.min.js"></script>
+</body>
+</html>

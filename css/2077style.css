@@ -1,0 +1,371 @@
+/************************************************************/
+/*                                                          */
+/*               Cyberboost's Index Stylesheet               */
+/*                By: Manuel Alarcon Fortes                 */
+/*                      2.0 Version                         */
+/*                                                          */
+/************************************************************/
+
+/************************fonts*******************************/
+
+@font-face{
+    font-family: cybertitulo;
+    src: url(../fonts/KogniGear.ttf);
+    }
+
+@font-face {
+    font-family: cybertext;
+    src: url(../fonts/spacejunkXL.ttf);
+    }
+
+/**************************************************************body***********************************************************/
+
+
+/**************************nav******************************/
+
+.nav-item:hover{
+    background-color:#A8C4F5 ;
+}
+
+.nav-link:hover{
+    color: #1f0c24;
+}
+
+.navbar{
+    color: #f3e600 !important;
+}
+
+/**************************hero******************************/
+
+body{
+    background-image: url(../img/2077/haikei.2077.png) ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 10em !important;
+}
+
+*{
+    margin-left:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#carousel .carousel-item.boat{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url(../img/2077/fondo1.jpg);
+    background-position: 32% ;
+}
+#carousel .carousel-item.sea{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url(../img/2077/fondo2.jpg);
+    background-position: 30%;
+}
+#carousel .carousel-item.river{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url(../img/2077/fondo3.jpg);
+    background-position: 75%;
+}
+#carousel .carousel-item{
+    height:100vh;
+    width:100%;
+    min-height:350px;
+    background:no-repeat center center scroll;
+    background-size:cover;
+}
+#carousel .carousel-inner .carousel-item{
+    transition:-webkit-transform 2s ease;
+    transition:transform 1s ease;
+    transition:transform 2s ease -webkit-transform 0.5s ease;
+}
+#carousel .carousel-item .caption{
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+/***************CARDS*****************/
+
+.card:hover{
+    box-shadow: 6px 6px 0 #f3e600;
+}
+
+/**************footer*******************/
+
+.enlaces{
+    text-decoration: none;
+}
+
+.enlaces:hover{
+    color: #a22e91;
+}
+
+/*************form*******************/
+
+.form-text { visibility:hidden;}
+
+/*************Audio Player************/
+
+
+.audioButton {
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+#playButton::-webkit-media-controls-panel {
+    background:#f3e600;
+}
+
+#playButton {
+    height: 25px;
+    width: 90%;
+    border: 3px solid #17091B;
+    border-radius: 20px; 
+}
+
+
+/************button Hero**************/
+
+#buttonHero,#buttonHero::after{
+    width:300px;
+    height:86px;
+    font-size:1.2em!important;
+    font-weight:900;
+    background:linear-gradient(45deg,transparent 5%,#17091B 5%);
+    border:0;
+    color:#fff;
+    letter-spacing:3px;
+    line-height:88px;
+    box-shadow:6px 0 0 #f3e600;
+    position:relative;
+
+}
+
+#buttonHero::after{
+    --slice-0:inset(50% 50% 50% 50%);
+    --slice-1:inset(80% -6px 0 0);
+    --slice-2:inset(50% -6px 30% 0);
+    --slice-3:inset(10% -6px 85% 0);
+    --slice-4:inset(40% -6px 43% 0);
+    --slice-5:inset(80% -6px 5% 0);
+    content:'a city to burn';
+    display:block;
+    position:absolute;
+    left:0;
+    top:0;
+    font-size:1.1em!important;
+    background:linear-gradient(45deg,transparent 3%,#f3e600 3%,#A8C4F5 5%, #A8C4F5 3%);
+    text-shadow: -3px -3px 0 #1f0c24 , 3px 3px 0 #f3e600;
+    clip-path:var(--slice-0);
+}
+#buttonHero:hover::after{
+    animation: glitch 1s;
+    animation-timing-function:steps(2,end);
+}
+
+#buttonHero:hover{
+    color:#1f0c24!important;
+    box-shadow:6px 0 0 #A8C4F5;
+    background:linear-gradient(45deg,transparent 5%,#f3e600 5%);
+}
+
+@keyframes glitch {
+    0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+    }
+    
+    10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+    }
+    
+    20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+    }
+    
+    30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+    }
+    
+    40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+    }
+    
+    50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+    }
+    
+    60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+    }
+    
+    70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+    }
+    
+    80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+    }
+    
+    90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+    }
+    
+    100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+    }
+}
+
+
+/*************************resto de botones*******************************/
+
+.botoncillos,.botoncillos::after{
+    width:170px!important;
+    height:43px!important;
+    text-decoration: none;
+    font-size:1.2em!important;
+    font-weight:500;
+    background:linear-gradient(45deg,transparent 5%,#32093d 5%);
+    border:0;
+    color:#fff;
+    letter-spacing:3px;
+    box-shadow:6px 0 0 #f3e600;
+    position:relative;
+
+}
+
+.botoncillos::after{
+    --slice-0:inset(50% 50% 50% 50%);
+    --slice-1:inset(80% -6px 0 0);
+    --slice-2:inset(50% -6px 30% 0);
+    --slice-3:inset(10% -6px 85% 0);
+    --slice-4:inset(40% -6px 43% 0);
+    --slice-5:inset(80% -6px 5% 0);
+    content:'wanna go deeper?';
+    display:block;
+    position:absolute;
+    left:0;
+    top:0;
+    font-size:0.7em!important;
+    background:linear-gradient(45deg,transparent 3%,#f3e600 3%,#A8C4F5 5%, #A8C4F5 3%);
+    text-shadow: -3px -3px 0 #32093d , 3px 3px 0 #f3e600;
+    clip-path:var(--slice-0);
+}
+.botoncillos:hover::after{
+    animation: glitch 1s;
+    animation-timing-function:steps(2,end);
+}
+
+.botoncillos:hover{
+    color:#1f0c24!important;
+    box-shadow:6px 0 0 #A8C4F5;
+    background:linear-gradient(45deg,transparent 5%,#f3e600 5%);
+}
+/***************************responsibity*********************************/
+
+@media only screen and (width<1400px) {
+
+    h1{
+        font-size: 9em!important;
+        left: 250px;
+    }
+
+}
+
+@media only screen and (width<1200px){
+    h1{
+        font-size: 8em!important;
+    }
+    #wrapper{
+        width: 100%!important;
+    }
+}
+
+@media only screen and (width<900px) {
+    h1{
+        font-size: 7em!important;
+    }
+    .marca{
+        font-size: 1.5em!important;
+    }
+
+    .row{
+        margin-right: 0px !important;
+    }
+
+}
+
+@media only screen and (width<800px) {
+    h1{
+        font-size: 6em !important;
+    }
+}
+
+@media only screen and (width<650px) {
+
+    h1{
+        font-size: 3em !important;
+    }
+}
+
+
+
+/***********************************************************Bootstrap Copies***********************************************************/
+
+.titulos{
+    font-family: cybertitulo !important;
+}
+
+.texto{
+    font-family: cybertext !important;
+}
+
+.w-10{
+    width: 10%!important;
+}
+
+.text-neon{
+    color: #f3e600 !important;
+}
+
+.text-azulin{
+    color: #A8C4F5 !important;
+}
+
+
+.bg-neon{
+    background-color: #f3e600 !important;
+}
+
+.bg-oscuro{
+    background-color:#17091B!important;
+}
+
+.bg-nav{
+    background-color:#2c1133!important;
+}
+
+.bg-claro{
+    background-color:#1f0c24!important;
+}
+
+.top-30{
+    top:30%!important
+}
+
+.top-70{
+    top:70%!important
+}
