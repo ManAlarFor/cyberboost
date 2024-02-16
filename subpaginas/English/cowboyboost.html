@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/index/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/cowboystyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cyberpunk 2077</title>
+</head>
+<body>
+
+    <audio src="../../sound/beeping-80664.mp3" id="bip"></audio>
+
+    <nav class="navbar titulos navbar-expand-lg bg-nav sticky-top">
+        <div class="container-fluid">
+            <button onclick="sound('bip')" class="navbar-toggler bg-neon rounded-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-azulin titulos">Menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="text-neon nav-link m-2" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-neon nav-link m-2" href="#plor">Plot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-neon nav-link m-2" href="#crew">Crew</a>
+                    </li>
+                    <li class="nav-item dropdown d-block end-0">
+                        <a class="text-neon nav-link m-2 dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Language
+                        </a>
+                        <ul class="dropdown-menu bg-oscuro">
+                        <li><a class="dropdown-item text-neon" href="#">English</a></li>
+                        <li><a class="dropdown-item text-neon" href="../Español/2077boostEsp.html">Spanish</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---------------------------------------------HERO SECTION------------------------------------------------------------>
+
+    <div class="container-fluid p-0">
+        <div id="carousel" class="carousel slide hero-slides" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel" data-slide-to="0"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            
+            <h1 class="text-neon titulos position-absolute top-30 start-50 translate-middle z-1">Cowboy Bebop</h1>
+
+            <a href="#plor"><button onclick="sound('bip')" id="buttonHero" class="titulos position-absolute top-70 text-azulin start-50 translate-middle z-1">Jump into Hyperspace</button></a>
+            <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active boat">
+            </div>
+            <div class="carousel-item sea">
+            </div>
+            <div class="carousel-item river">
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only ">Next</span>
+            </a>
+        </div>
+    </div>
+    
+    </div>
+
+    <div id="wrapper" class="w-75 m-auto texto text-azulin">
+
+        <section class="container p-5 bg-claro" id="Plot">
+
+            <div class="row pt-5 pb-5">
+                    <div class="p-2 col-12 col-md-8"> 
+                        <h2 class="titulos text-neon">Plot</h2>
+                        <p>In 2071, fifty years after an accident that happened in a hypersppace gateaway the Earth almost inhabitable almost all plannets are conquered, and an Inter Solar System Police is stablished. The protagonist, Spike Spiegel and Jet Black will travel across this planets dealing with the problems that get in his way recruiting more members for the crew. The plot floats around the relationship of Spike with an old camarade.</p>
+
+                        <a target="_blank" href="https://cowboy-bebop.net" onclick="sound('bip')" class="pe-5"><button class="botoncillos">Official Site</button></a>
+
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <img class="w-100 rounded-top-4" src="../../img/cowboy/nave.jpg" alt="Cowboy Bebop's Spaceship">
+                    </div>
+
+            </div>
+
+        </section>
+
+        <section class="container p-5 bg-oscuro" id="crew">
+
+            
+        <div class="row pt-5 pb-5">  
+            <h2 class="titulos text-neon">Crew</h2>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-claro text-azulin">
+                    <img src="../../img/cowboy/spike.jpg" class="card-img-top mb-2" alt="Spike Spiegel Image">
+                    <div class="card-body">
+                        <h5 class="card-title titulos text-neon">Spike Spiegel</h5>
+                        <p class="card-text">He is a bounty hunter born in Mars who even having a cavalier attitude, he often shows signs of compasion.He has a mysterious violent past which can be discover through the episodes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-claro text-azulin">
+                    <img src="../../img/cowboy/jet.jpg" class="card-img-top mb-2" alt="Jet Black Image">
+                    <div class="card-body">
+                        <h5 class="card-title titulos text-neon">Jet Black</h5>
+                        <p class="card-text">Known as Black Dog due to his tenacity, he is a former cop born in the largest Jupiter moon. He is a character that works as a counterpart of Spike, as he is hard working, what contrast with Spike's uninterested behaviour.</p>
+                    </div>
+                </div>
+            </div>  
+
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-claro text-azulin">
+                    <img src="../../img/cowboy/faye.png" class="card-img-top mb-2" alt="Faye Valentine Image">
+                    <div class="card-body">
+                    <h5 class="card-title titulos text-neon">Faye Valentine</h5>
+                    <p class="card-text">Even looking like a woman at her 20's, she is indeed 77 years as she was put in a cryogenic freeze for around 54 years. She will join the crew after crossing paths with Spike and Jet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-claro text-azulin">
+                    <img src="../../img/cowboy/ed.jpg" class="card-img-top mb-2" alt="Mona Lisa Overdrive Cover">
+                    <div class="card-body">
+                        <h5 class="card-title titulos text-neon">Edward Wong and Ein</h5>
+                        <p class="card-text">Edward is a 13 year old girl who is one of the most talented hackers in the world, and Ein is a dog the crew took as a pet. Both work as a comic relieve during the story.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </section>
+
+        <footer class="bg-claro">
+            <div class="marca display-2 text-center text-neon titulos p-3">
+                Cyberpunk
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 pb-5 ps-5">
+                    <p>Check out my Github Profile:</p>
+                    <a target="_blank" href="https://github.com/ManAlarFor" class="display-4" target="_blank"><i class="enlaces fa fa-github text-neon" aria-hidden="true"></i></a>
+
+                </div>
+
+                <div class="col-12 col-lg-6 text-end pe-5">
+                    <div id="rights">
+                        <p class="enlaces"><a class="text-neon" href="#plor">Plot</a></p>
+                        <p class="enlaces"><a class="text-neon" href="#crew">Crew</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="./js/boostjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" scr="https://cdnjs.cloudflare.com/ajax/libs/animateCSS/1.2.2/jquery.animatecss.min.js"></script>
+</body>
+</html>
