@@ -49,6 +49,12 @@ h1{
     font-size: 10em !important;
 }
 
+
+h4{
+    padding-top: 10%;
+    text-align: center;
+}
+
 *{
     margin-left:0;
     padding:0;
