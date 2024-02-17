@@ -54,17 +54,17 @@ h1{
     padding:0;
     box-sizing:border-box;
 }
-#carousel .carousel-item.boat{
+#carousel .carousel-item.foto1{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                     url(../img/neuro/neuroCover.jpg);
     background-position: 50% ;
 }
-#carousel .carousel-item.sea{
+#carousel .carousel-item.foto2{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                     url(../img/neuro/countCover.jpg);
     background-position: 50%;
 }
-#carousel .carousel-item.river{
+#carousel .carousel-item.foto3{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                     url(../img/neuro/monalisaCover.png);
     background-position: 50%;

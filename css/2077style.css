@@ -54,17 +54,17 @@ h1{
     padding:0;
     box-sizing:border-box;
 }
-#carousel .carousel-item.boat{
+#carousel .carousel-item.foto1{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                     url(../img/2077/fondo1.jpg);
     background-position: 32% ;
 }
-#carousel .carousel-item.sea{
+#carousel .carousel-item.foto2{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                     url(../img/2077/fondo2.jpg);
     background-position: 30%;
 }
-#carousel .carousel-item.river{
+#carousel .carousel-item.foto3{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                     url(../img/2077/fondo3.jpg);
     background-position: 75%;

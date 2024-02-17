@@ -60,15 +60,15 @@ h4{
     padding:0;
     box-sizing:border-box;
 }
-#carousel .carousel-item.boat{
+#carousel .carousel-item.foto1{
     background-image:url(../img/index/carroussel1.jpg);
     background-position: 35% ;
 }
-#carousel .carousel-item.sea{
+#carousel .carousel-item.foto2{
     background-image:url(../img/index/carroussel2.jpg);
     background-position: 20%;
 }
-#carousel .carousel-item.river{
+#carousel .carousel-item.foto3{
     background-image:url(../img/index/carroussel3.jpg);
     background-position: 60%;
 }
