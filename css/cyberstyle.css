@@ -164,7 +164,13 @@ h4{
     height: 70vh;
 }
 
+/**************boton de subida****************/
 
+.fa-arrow-circle-up{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 3em !important;}
 
 /**************footer*******************/
 

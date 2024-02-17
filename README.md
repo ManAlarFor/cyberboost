@@ -47,11 +47,11 @@
 <p>He utilizado unas imagenes de fondo tomada de xtrafondos (https://www.xtrafondos.com/wallpaper/3840x2400/3957-blade-runner-2049.html), Alucine (https://www.alucine.es/2018/12/20/no-habra-tercera-entrega-de-blade-runner/) y de reddit (https://www.reddit.com/r/wallpaper/comments/crmlwi/you_look_lonely_1920_x_1080/) que se adapta fácilmente a diferentes dispositivos. Sobre ella he colocado un Call to Action que he estilado a partir de un button estilizado para ir acorde a la estética de la página. Se divide en las secciones de Blade Runn y de los miembros de la tribulación.</p>
 
 <h3>Cyberpunk 2077</h3>
-<img src="./img/CapturasReadme/Readme2077.jpg-readme/Captura2077.png" alt="imagen de principal" style="width:50%">
+<img src="./img/CapturasReadme/Readme2077.jpg" alt="imagen de principal" style="width:50%">
 <p>He utilizado una imagen de fondo tomada de la pagina oficial de Cyberpunk 2077 (https://www.cyberpunk.net/es/en/cyberpunk-2077) que se adapta fácilmente a diferentes dispositivos. Sobre ella he colocado un Call to Action que he estilado a partir de un button estilizado para ir acorde a la estética de la página. Se divide en las secciones de la linea temporal y de los distintos productos de la franquicia.</p>
 
 <h3>Cowboy Bebop</h3>
-<img src="./img/CapturasReadme/ReadmeCowboy.jpg-readme/CapturaCowboy.png" alt="imagen de principal" style="width:50%">
+<img src="./img/CapturasReadme/ReadmeCowboy.jpg" alt="imagen de principal" style="width:50%">
 <p>He utilizado una imagen de fondo tomada de wallhere (https://wallhere.com/es/wallpaper/2254022), expansion (https://www.expansion.com/fueradeserie/cultura/album/2022/09/19/630f8787e5fdeade4e8b461b_16.html) y de gedeyho (https://gedeyho.web.app/jaduwu-cowboy-bebop-blue-wallpaper.html) que se adapta fácilmente a diferentes dispositivos. Sobre ella he colocado un Call to Action que he estilado a partir de un button estilizado para ir acorde a la estética de la página. Se divide en las secciones de la trama y de los miembros de la tribulación.</p>
 
 <h2 id="estilo">Estilo de la página</h2>
@@ -64,7 +64,7 @@
 <h3>Imágenes</h3>
 <p>Todos los background patterns son de la página haikei: https://app.haikei.app</p>
 <h4>Página inicial</h4>
-<p>El favicon lo he sacado de Freepik: https://www.freepik.com/icon/cyberpunk_4769970</p>
+<p>El favicon es generado por el generador de imagenes de bing</p>
 <p>La foto de la sección de introducción es de Pinterest: https://www.pinterest.es/pin/180495897552614245/?amp_client_id=CLIENT_ID%28_%29&mweb_unauth_id=&simplified=true</p>
 <p>La foto de la sección de origenes es de Pinterest: https://ar.pinterest.com/pin/738731145149924343/</p>
 <p>La foto de la sección características es de la página oficial de Cyberpunk 2077: https://www.cyberpunk.net/es/en/cyberpunk-2077</p>
@@ -97,17 +97,18 @@
 <p>La foto de la sección de Blade Runner 2049 es de la página de Floxer: https://www.flooxernow.com/noticias/blade-runner-2049-pelicula-imperfecta-pero-esta-altura-original_2017100359d7008e0cf29f7c62da7984.html</p>
 
 <h3>Audios</h3>
-<p>Sonido de los botones: https://pixabay.com/es/sound-effects/search/electric%20bip/</p>
+<p>Sonido de los botones: https://pixabay.com/es/</p>
 <p>Tema pricipal de Cyberpunk 2077: https://youtu.be/mhehxYhXG5Q?si=1JMI_lVRoFnORQrl</p>
 <p>Tema pricipal de Cyberpunk Edgerunners: https://youtu.be/OifiVCnFKzM?si=I6tPae3yRTHqK4cl</p>
 
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp</li>
-  <li>Accordion: tomado de FreeFrontend: https://freefrontend.com/css-accordions/</li>
-  <li>Modal: tomado de w3Schools: https://www.w3schools.com/howto/howto_css_modals.asp</li>
-  <li>Cards: tomada de w3Schools: https://www.w3schools.com/howto/howto_css_cards.asp</li>
-  <li>Galeria: tomada de w3Schools: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp</li>
-  <li>Efecto de Galeria: tomada de CodePen: https://codepen.io/nxworld/pen/ZYNOBZ</li>
+  <li>Barra de navegación: tomada de Bootstrap</li>
+  <li>Accordion: tomado de Bootstrap</li>
+  <li>Modal: tomado de Bootstrap</li>
+  <li>Cards: tomada de Bootstrap</li>
+  <li>Galeria: tomada de w3Schools: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp</li>
+  <li>Botones: Sacados de codepen: https://codepen.io/corgitea/pen/wvzpEXN</li>
+  <li>Hero: Sacada de code4education: https://codes4education.com/responsive-full-screen-image-slider-hero-slider/</li>
 </ul>
