@@ -95,6 +95,77 @@ h4{
     box-shadow: 6px 6px 0 #F942DD;
 }
 
+/**************gallery****************/
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-contenedor {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.foto{
+    height: 70vh;
+}
+
+
+
 /**************footer*******************/
 
 .enlaces{
@@ -286,6 +357,10 @@ h4{
 
     .row{
         margin-right: 0px !important;
+    }
+
+    .foto{
+        height: 20vh;
     }
 
 }
